@@ -1,3 +1,9 @@
-<p>
-  food-list works!
-</p>
+<h2>List of food we offer: </h2>
+
+<ul>
+  <li *ngFor="let oneFood of foodList">
+    <p> <span class="foodName">Our Specialty:</span> {{ oneFood.name }} </p>
+    <p> Calories: {{ oneFood.calories }} cal. </p>
+    <img [src]="oneFood.image" alt="Food Image">
+  </li>
+</ul>

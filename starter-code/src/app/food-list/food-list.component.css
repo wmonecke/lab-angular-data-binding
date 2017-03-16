@@ -1,0 +1,20 @@
+ul {
+  width: 80vw;
+  align-items: center;
+}
+
+li {
+  float: right;
+  padding: 2vw;
+  list-style: none;
+  width: 13vw;
+}
+
+img {
+  width: 12vw;
+  height: auto;
+}
+
+.foodName {
+  color: lightgrey;
+}
