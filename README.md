@@ -1,6 +1,6 @@
 ![Ironhack logo](https://i.imgur.com/1QgrNNw.png)
 
-# Lab | IronNutrition
+# Angular | IronNutrition
 
 ## Introduction
 
@@ -8,7 +8,7 @@ After weeks of working on code at Ironhack, and putting on the dreaded Ironhack 
 
 Our solution: A Nutrition App.
 
-![](https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/upload_86e1e60dab8f02b4adcd1af0eb850a0e.gif)
+![](images/autocomplete.gif)
 
 ## Requirements
 
@@ -41,13 +41,13 @@ In the Pull request name, add your name and last names separated by a dash "-"
 
 In the `app-food-list` component, display a list of the foods. This should include the food's image, its name, and its calorie count.
 
-Notice, we've already imported an array of objects containing food into the component. 
+Notice, we've already imported an array of objects containing food into the component.
 
 **Make sure the image's src property is properly bound.**
 
 ### Iteration 2 | Search Foods
 
-Create an input box to search through the foods by name. 
+Create an input box to search through the foods by name.
 
 You're going to need to generate a custom *pipe* to do this. Reference the example from the lesson on pipes, as it will be very similar.
 
@@ -55,7 +55,7 @@ You're going to need to generate a custom *pipe* to do this. Reference the examp
 
 Create a button to add new foods.
 
-When a user clicks the button, a form will appear with fields for a name, calories, and image. 
+When a user clicks the button, a form will appear with fields for a name, calories, and image.
 
 When the user clicks submit, the food will be added to the new food list.
 
@@ -63,11 +63,11 @@ When the user clicks the submit button, or when they click add food again the fo
 
 ### Iteration 4 | Today's Foods List
 
-Create a button on each item. When a user clicks the button it should be added to a list of foods which are "today's foods". 
+Create a button on each item. When a user clicks the button it should be added to a list of foods which are "today's foods".
 
 Somewhere on the page, display a list of today's foods, with a total calorie count.
 
-### Bonus | Quantities 
+### Bonus | Quantities
 
 In addition to the "Add to today's list" button, create an input for quanitity. Whenever a user enters a quanitity into the input, you should add that many of the item to their list.
 
