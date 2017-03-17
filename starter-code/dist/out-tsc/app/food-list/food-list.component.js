@@ -11,9 +11,14 @@ import { Component } from '@angular/core';
 import foods from '../foods';
 var FoodListComponent = (function () {
     function FoodListComponent() {
+        this.newFood = {};
     }
     FoodListComponent.prototype.ngOnInit = function () {
         this.foodList = foods;
+    };
+    FoodListComponent.prototype.addFood = function () {
+        this.foodList.push(this.newFood);
+        this.newFood = {};
     };
     return FoodListComponent;
 }());

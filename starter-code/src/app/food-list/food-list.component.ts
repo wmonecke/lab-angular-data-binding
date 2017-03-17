@@ -8,6 +8,8 @@ import foods from '../foods';
 })
 export class FoodListComponent implements OnInit {
   foodList: Array<Object>;
+  pattern: string;
+  newFood: Object = {};
 
   constructor() { }
 
@@ -15,4 +17,8 @@ export class FoodListComponent implements OnInit {
     this.foodList = foods;
   }
 
+  addFood() {
+    this.foodList.push(this.newFood);
+    this.newFood = {};
+  }
 }
